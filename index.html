@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+  </head>
+  <body>
+    <header>
+      
+      <h1>Yαεn's Algorithm</h1>
+      
+    </header>
+    <div id="content">
+      <div id="example">
+        <div id="exampleText">
+          <h2 id="subtitleText">The Problem</h2>
+
+          
+          <p class="exampleText">You are given 100 pennies which are equivalent to a dollar. You must arrange these pennies in the following stacks (3, 5, 6, 7, and 9). An example is provided in the first picture.</p>
+
+          <p class="exampleText">Each one of these groups has to have the same amount of pennies in each stack. For example, if I wanted to put 3 cents in one of the stacks for the group of 3 then I would be putting 3 cents on each stack which would equal 9 cents in the whole group. This is shown in the second image.</p>
+
+          <p class="exampleText">The following algorithm will look for all possible combinations following the previously stated rules. Down below insert five values that would represent the amount of stacks per group. This number has to be in between 1 to 9 (0 &lt; x &gt; 10). For example (1, 2, 3, 4, 5)</p>
+          
+          
+        </div>
+        <div id="examplePictures">
+          
+          <img id="pennieExample01" src="pennieExample.png" alt="hello world">
+          
+          <img id="pennieExample02" src="pennieExample2.png">
+          
+          
+        </div>
+      </div>
+
+
+      <div id="resultContainer">
+        <form action="Javascript:grabInputArray()">
+
+
+          <div id="input-grid">
+
+            <input id="arrayInput1" class="arrayInput" name="arrayInput" type="number" placeholder="0" value="1" min="1" max="9" list="defaultNumbers">
+
+            <input id="arrayInput2" class="arrayInput" name="arrayInput" type="number" placeholder="0" value="1" min="1" max="9" list="defaultNumbers">
+
+            <input id="arrayInput3" class="arrayInput" name="arrayInput" type="number" placeholder="0" value="1" min="1" max="9" list="defaultNumbers">
+
+            <input id="arrayInput4" class="arrayInput" name="arrayInput" type="number" placeholder="0" value="1" min="1" max="9" list="defaultNumbers">
+
+            <input id="arrayInput5" class="arrayInput" name="arrayInput" type="number" placeholder="0" value="1" min="1" max="9" list="defaultNumbers">
+
+          </div>
+
+          <input id="submitButton" type="submit" name="go" value="Execute Algorithm">
+        </form>
+
+        <p id="valid">Valid Combinations: </p>
+
+        
+        <div class="resultDivider"></div>
+
+        
+        <p id="failed">Invalid Combinations: </p>
+
+        
+        <div class="resultDivider"></div>
+
+        
+        <p id="result">Possible Combinations: </p>
+
+      </div>
+    </div>
+    <footer>
+      
+      <h2 id="copyright">Copyright© 2018 Yaen Torres</h2>
+      
+    </footer>
+  </body>
+</html>

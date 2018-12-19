@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  font-style: none;
+  font-weight: none;
+  list-style: none;
+  font-family: Arial;
+}
+
+h1 {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+  background: linear-gradient(#00baff, #008fdb);
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 35px;
+}
+
+#example {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#exampleText {
+  width: 90%;
+}
+
+.exampleText {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  line-height: 23px;
+}
+
+#submitButton {
+  display: block;
+  font-size: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  padding:  15px 20px;
+  background: linear-gradient(#ffcf33, #ff9300);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin-top: 20px;
+  border: 3px solid white;
+  transition: border 0.4s;
+}
+
+#submitButton:hover {
+  border: 3px solid #00a7ff;
+}
+
+footer {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding: 2px 0px;
+  background: linear-gradient(#00baff, #60c8ff);
+}
+
+.output {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.resultDivider {
+  background-color: #008fdb;
+  border-radius: 10px;
+  padding-top: 4px;
+  margin: 0 auto;
+  display: block;
+  width: 45%;
+}
+
+#subtitleText {
+  margin: 10px 0;
+  font-size: 35px;
+  color: #004860;
+  margin-left: 15%;
+}
+
+#input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 600px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 3px ridge #ff9300;
+  border-radius: 10px;
+}
+
+.arrayInput {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 100px;
+  width: 35%;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  border: none;
+}
+
+#pennieExample01 {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid #646464;
+  border-radius: 5px;
+}
+
+#pennieExample01:hover {
+  opacity: 0.8;
+}
+
+#pennieExample02 {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid #646464;
+  border-radius: 5px;
+}
+
+#pennieExample02:hover {
+  opacity: 0.8;
+}
+
+#valid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#failed {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#copyright {
+  font-size: 20px;
+}
+
+#result {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 650px) {
+  #pennieExample {
+    width: 60%;
+  }
+  
+  #input-grid {
+    width: 60%;
+    max-width: 400px;
+  }
+  
+  #input-grid {
+    width: 100%;
+  }
+  
+  .arrayInput {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #input-grid {
+    width: 70%;
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #input-grid {
+    width: 65%;
+    max-width: 200px;
+  }
+}
